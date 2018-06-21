@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "name": "Forms Mapping",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-E3BbjiXu",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-XFNnvi1o",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-xTe5mGEA",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-pvVMVczU",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "System",
+        "Context",
+        "Form",
+        "Subform"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-IUqCCzmW",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-OOxm4Ics",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-1CxmQRbX",
+      "name": "Strength",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Strong",
+        "Weak"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-OsqGXsVE",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-4EsD9yAm",
+      "attributes": {}
+    },
+    {
+      "_id": "elem-ClC8BwkC",
+      "attributes": {}
+    },
+    {
+      "_id": "elem-Mt9FLv6Q",
+      "attributes": {
+        "label": "R1SE2"
+      }
+    },
+    {
+      "_id": "elem-OtdrlNpk",
+      "attributes": {
+        "label": "Search"
+      }
+    },
+    {
+      "_id": "elem-PELkalWu",
+      "attributes": {
+        "label": "Patient Transports"
+      }
+    },
+    {
+      "_id": "elem-gFM9CaoV",
+      "attributes": {
+        "label": "R2"
+      }
+    },
+    {
+      "_id": "elem-po5MT272",
+      "attributes": {}
+    },
+    {
+      "_id": "elem-pz2t5Hcq",
+      "attributes": {
+        "label": "NRS"
+      }
+    },
+    {
+      "_id": "elem-yFmQ9tz7",
+      "attributes": {
+        "label": "R1SE3"
+      }
+    },
+    {
+      "_id": "elem-5BFezEA9",
+      "attributes": {
+        "label": "Payers"
+      }
+    },
+    {
+      "_id": "elem-KRgIUw6N",
+      "attributes": {
+        "label": "Practitioners"
+      }
+    },
+    {
+      "_id": "elem-LENkcfru",
+      "attributes": {
+        "label": "Payer Library"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-GyfjIZTK",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4EsD9yAm",
+      "to": "elem-Mt9FLv6Q"
+    },
+    {
+      "_id": "conn-JOLuEhlg",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-OtdrlNpk",
+      "to": "elem-po5MT272"
+    },
+    {
+      "_id": "conn-S19k6SGt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4EsD9yAm",
+      "to": "elem-ClC8BwkC"
+    },
+    {
+      "_id": "conn-U97CGf2T",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-po5MT272",
+      "to": "elem-4EsD9yAm"
+    },
+    {
+      "_id": "conn-dGMhMovF",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4EsD9yAm",
+      "to": "elem-yFmQ9tz7"
+    },
+    {
+      "_id": "conn-e6PqaFGR",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-po5MT272",
+      "to": "elem-gFM9CaoV"
+    },
+    {
+      "_id": "conn-eg2HGnlB",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pz2t5Hcq",
+      "to": "elem-PELkalWu"
+    },
+    {
+      "_id": "conn-k7078RfV",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PELkalWu",
+      "to": "elem-OtdrlNpk"
+    },
+    {
+      "_id": "conn-tDxoU9Xt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pz2t5Hcq",
+      "to": "elem-KRgIUw6N"
+    },
+    {
+      "_id": "conn-2KRSNBB0",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pz2t5Hcq",
+      "to": "elem-5BFezEA9"
+    },
+    {
+      "_id": "conn-XGMYYXEE",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pz2t5Hcq",
+      "to": "elem-LENkcfru"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-E3BbjiXu",
+      "name": "Forms Mapping",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-106XympY",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [
+        {
+          "_id": "node-2KggjCfD",
+          "position": null,
+          "pinned": false,
+          "element": "elem-pz2t5Hcq"
+        },
+        {
+          "_id": "node-ecmNx2j7",
+          "position": null,
+          "pinned": false,
+          "element": "elem-PELkalWu"
+        },
+        {
+          "_id": "node-oThZQ2Bx",
+          "position": null,
+          "pinned": false,
+          "element": "elem-5BFezEA9"
+        },
+        {
+          "_id": "node-qFpF4uIS",
+          "position": {
+            "x": -111.06956043406183,
+            "y": -47.76427406077026
+          },
+          "pinned": false,
+          "element": "elem-KRgIUw6N"
+        },
+        {
+          "_id": "node-CkBrp3PN",
+          "position": {
+            "x": -169.09336534226316,
+            "y": 63.19352830754453
+          },
+          "pinned": false,
+          "element": "elem-LENkcfru"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-MtuLlxxA",
+          "connection": "conn-eg2HGnlB"
+        },
+        {
+          "_id": "edge-E0Ww8Yta",
+          "connection": "conn-tDxoU9Xt"
+        },
+        {
+          "_id": "edge-5eN15yYL",
+          "connection": "conn-2KRSNBB0"
+        },
+        {
+          "_id": "edge-FFkpypW5",
+          "connection": "conn-XGMYYXEE"
+        }
+      ],
+      "loops": []
+    },
+    {
+      "_id": "map-LMRX5dmO",
+      "name": "test",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-VOBOQij1",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [],
+      "connections": [],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-106XympY",
+      "name": "Forms Mapping",
+      "style": "@settings {\n  template: sna;\n}\n\n"
+    },
+    {
+      "_id": "pers-VOBOQij1",
+      "name": "test",
+      "style": "@settings {\n  template: stakeholder;\n}\n\n"
+    }
+  ]
+}
